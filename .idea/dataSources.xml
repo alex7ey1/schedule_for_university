@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="schedule_typed@localhost" uuid="9b360df1-27b8-4edf-b047-05cc5ac354b8">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://localhost:1433;databaseName=schedule_typed</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="schedule_cloud@midnight.database.windows.net" uuid="e1849ba3-0018-4637-817a-a5ebac008ffd">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://midnight.database.windows.net:1433;databaseName=schedule_cloud</jdbc-url>
+    </data-source>
+  </component>
+</project>

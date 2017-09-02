@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300);
+body
+{
+    /*font-family: arial;*/
+    font-family: 'Raleway', sans-serif;
+}
+
+h2{
+    text-align: center;
+    margin-top: 5%;
+    font-family: 'Raleway', sans-serif;
+}
+th,td
+{
+    margin: 0;
+    text-align: center;
+    border-collapse: collapse;
+    outline: 1px solid #e3e3e3;
+}
+
+td
+{
+    padding: 5px 10px;
+}
+
+th
+{
+    background: #666;
+    color: white;
+    padding: 5px 10px;
+}
+
+td:hover
+{
+    cursor: pointer;
+    background: #666;
+    color: white;
+}

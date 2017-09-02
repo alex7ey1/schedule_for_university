@@ -1,0 +1,1191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="schedule_typed@localhost">
+  <database-model serializer="dbm" rdbms="MSSQL" format-version="4.1">
+    <root id="1"/>
+    <database id="2" parent="1" name="master">
+      <ObjectId>1</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <database id="3" parent="1" name="tempdb">
+      <ObjectId>2</ObjectId>
+    </database>
+    <database id="4" parent="1" name="model">
+      <ObjectId>3</ObjectId>
+    </database>
+    <database id="5" parent="1" name="msdb">
+      <ObjectId>4</ObjectId>
+    </database>
+    <database id="6" parent="1" name="schedule_typed">
+      <ObjectId>5</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <schema id="7" parent="2" name="dbo">
+      <ObjectId>1</ObjectId>
+      <IntrospectionTimestamp>2017-04-08.03:38:40.490</IntrospectionTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="8" parent="2" name="guest">
+      <ObjectId>2</ObjectId>
+    </schema>
+    <schema id="9" parent="2" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+    </schema>
+    <schema id="10" parent="2" name="sys">
+      <ObjectId>4</ObjectId>
+    </schema>
+    <schema id="11" parent="2" name="db_owner">
+      <ObjectId>16384</ObjectId>
+    </schema>
+    <schema id="12" parent="2" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+    </schema>
+    <schema id="13" parent="2" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+    </schema>
+    <schema id="14" parent="2" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+    </schema>
+    <schema id="15" parent="2" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+    </schema>
+    <schema id="16" parent="2" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+    </schema>
+    <schema id="17" parent="2" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+    </schema>
+    <schema id="18" parent="2" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+    </schema>
+    <schema id="19" parent="2" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+    </schema>
+    <schema id="20" parent="6" name="dbo">
+      <ObjectId>1</ObjectId>
+      <IntrospectionTimestamp>2017-04-08.03:38:40.497</IntrospectionTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="21" parent="6" name="guest">
+      <ObjectId>2</ObjectId>
+    </schema>
+    <schema id="22" parent="6" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+    </schema>
+    <schema id="23" parent="6" name="sys">
+      <ObjectId>4</ObjectId>
+    </schema>
+    <schema id="24" parent="6" name="db_owner">
+      <ObjectId>16384</ObjectId>
+    </schema>
+    <schema id="25" parent="6" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+    </schema>
+    <schema id="26" parent="6" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+    </schema>
+    <schema id="27" parent="6" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+    </schema>
+    <schema id="28" parent="6" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+    </schema>
+    <schema id="29" parent="6" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+    </schema>
+    <schema id="30" parent="6" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+    </schema>
+    <schema id="31" parent="6" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+    </schema>
+    <schema id="32" parent="6" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+    </schema>
+    <table id="33" parent="7" name="CLASSROOM">
+      <ObjectId>901578250</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.623</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.780</ModifiedTimestamp>
+    </table>
+    <table id="34" parent="7" name="CORPUS">
+      <ObjectId>1141579105</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.683</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.820</ModifiedTimestamp>
+    </table>
+    <table id="35" parent="7" name="DAY_OF_THE_WEEK">
+      <ObjectId>1029578706</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.657</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.810</ModifiedTimestamp>
+    </table>
+    <table id="36" parent="7" name="LESSON">
+      <ObjectId>1061578820</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.660</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.813</ModifiedTimestamp>
+    </table>
+    <table id="37" parent="7" name="LESSON_CLASSROOM">
+      <ObjectId>1093578934</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.667</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.730</ModifiedTimestamp>
+    </table>
+    <table id="38" parent="7" name="LESSON_STUDY_GROUP">
+      <ObjectId>1109578991</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.673</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.740</ModifiedTimestamp>
+    </table>
+    <table id="39" parent="7" name="LESSON_TYPE_OF_LESSON">
+      <ObjectId>1125579048</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.680</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.750</ModifiedTimestamp>
+    </table>
+    <table id="40" parent="7" name="SCHEDULE">
+      <ObjectId>1221579390</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.707</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.837</ModifiedTimestamp>
+    </table>
+    <table id="41" parent="7" name="STUDY_GROUP">
+      <ObjectId>997578592</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.647</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.803</ModifiedTimestamp>
+    </table>
+    <table id="42" parent="7" name="TEACHER">
+      <ObjectId>1173579219</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.690</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.830</ModifiedTimestamp>
+    </table>
+    <table id="43" parent="7" name="TEACHER_LESSON">
+      <ObjectId>1205579333</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.700</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.777</ModifiedTimestamp>
+    </table>
+    <table id="44" parent="7" name="TIMETABLE">
+      <ObjectId>933578364</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.637</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.797</ModifiedTimestamp>
+    </table>
+    <table id="45" parent="7" name="TYPE_OF_LESSON">
+      <ObjectId>1237579447</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.713</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.837</ModifiedTimestamp>
+    </table>
+    <table id="46" parent="20" name="CLASSROOM">
+      <ObjectId>901578250</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.623</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.780</ModifiedTimestamp>
+    </table>
+    <table id="47" parent="20" name="CORPUS">
+      <ObjectId>1141579105</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.683</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.820</ModifiedTimestamp>
+    </table>
+    <table id="48" parent="20" name="DAY_OF_THE_WEEK">
+      <ObjectId>1029578706</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.657</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.810</ModifiedTimestamp>
+    </table>
+    <table id="49" parent="20" name="LESSON">
+      <ObjectId>1061578820</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.660</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.813</ModifiedTimestamp>
+    </table>
+    <table id="50" parent="20" name="LESSON_CLASSROOM">
+      <ObjectId>1093578934</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.667</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.730</ModifiedTimestamp>
+    </table>
+    <table id="51" parent="20" name="LESSON_STUDY_GROUP">
+      <ObjectId>1109578991</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.673</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.740</ModifiedTimestamp>
+    </table>
+    <table id="52" parent="20" name="LESSON_TYPE_OF_LESSON">
+      <ObjectId>1125579048</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.680</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.750</ModifiedTimestamp>
+    </table>
+    <table id="53" parent="20" name="SCHEDULE">
+      <ObjectId>1221579390</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.707</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.837</ModifiedTimestamp>
+    </table>
+    <table id="54" parent="20" name="STUDY_GROUP">
+      <ObjectId>997578592</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.647</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.803</ModifiedTimestamp>
+    </table>
+    <table id="55" parent="20" name="TEACHER">
+      <ObjectId>1173579219</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.690</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.830</ModifiedTimestamp>
+    </table>
+    <table id="56" parent="20" name="TEACHER_LESSON">
+      <ObjectId>1205579333</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.700</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.777</ModifiedTimestamp>
+    </table>
+    <table id="57" parent="20" name="TIMETABLE">
+      <ObjectId>933578364</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.637</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.797</ModifiedTimestamp>
+    </table>
+    <table id="58" parent="20" name="TYPE_OF_LESSON">
+      <ObjectId>1237579447</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.713</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.837</ModifiedTimestamp>
+    </table>
+    <column id="59" parent="33" name="classroom_id">
+      <Position>1</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="60" parent="33" name="corpus_id">
+      <Position>2</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="61" parent="33" name="classroom_number">
+      <Position>3</Position>
+      <DataType>smallint|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="62" parent="33" name="classroom_capacity">
+      <Position>4</Position>
+      <DataType>smallint|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="63" parent="33" name="equipment">
+      <Position>5</Position>
+      <DataType>bit|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="64" parent="33" name="PK_CLASSROOM">
+      <Position>1</Position>
+      <ColNames>classroom_id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="65" parent="33" name="PK_CLASSROOM">
+      <ObjectId>917578307</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.630</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.630</ModifiedTimestamp>
+      <ColNames>classroom_id</ColNames>
+      <UnderlyingIndexName>PK_CLASSROOM</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="66" parent="33" name="FK_CLASSROOM_CORPUS">
+      <ObjectId>1269579561</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.720</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.720</ModifiedTimestamp>
+      <ColNames>corpus_id</ColNames>
+      <RefTableName>CORPUS</RefTableName>
+      <RefColNames>corpus_id</RefColNames>
+    </foreign-key>
+    <column id="67" parent="34" name="corpus_id">
+      <Position>1</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="68" parent="34" name="corpus_adress">
+      <Position>2</Position>
+      <DataType>ntext|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="69" parent="34" name="PK_CORPUS">
+      <Position>1</Position>
+      <ColNames>corpus_id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="70" parent="34" name="PK_CORPUS">
+      <ObjectId>1157579162</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.687</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.687</ModifiedTimestamp>
+      <ColNames>corpus_id</ColNames>
+      <UnderlyingIndexName>PK_CORPUS</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="71" parent="35" name="day_name">
+      <Position>1</Position>
+      <DataType>nvarchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="72" parent="35" name="PK_DAY_OF_THE_WEEK">
+      <Position>1</Position>
+      <ColNames>day_name</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="73" parent="35" name="PK_DAY_OF_THE_WEEK">
+      <ObjectId>1045578763</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.657</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.657</ModifiedTimestamp>
+      <ColNames>day_name</ColNames>
+      <UnderlyingIndexName>PK_DAY_OF_THE_WEEK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="74" parent="36" name="lesson_name">
+      <Position>1</Position>
+      <DataType>nvarchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="75" parent="36" name="PK_LESSON">
+      <Position>1</Position>
+      <ColNames>lesson_name</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="76" parent="36" name="PK_LESSON">
+      <ObjectId>1077578877</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.663</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.663</ModifiedTimestamp>
+      <ColNames>lesson_name</ColNames>
+      <UnderlyingIndexName>PK_LESSON</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="77" parent="37" name="lesson_name">
+      <Position>1</Position>
+      <DataType>nvarchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="78" parent="37" name="classroom_id">
+      <Position>2</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <foreign-key id="79" parent="37" name="FK_LESSON_CLASSROOM_LESSON">
+      <ObjectId>1301579675</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.730</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.730</ModifiedTimestamp>
+      <ColNames>lesson_name</ColNames>
+      <RefTableName>LESSON</RefTableName>
+      <RefColNames>lesson_name</RefColNames>
+    </foreign-key>
+    <foreign-key id="80" parent="37" name="FK_LESSON_CLASSROOM_CLASSROOM">
+      <ObjectId>1285579618</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.723</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.723</ModifiedTimestamp>
+      <ColNames>classroom_id</ColNames>
+      <RefTableName>CLASSROOM</RefTableName>
+      <RefColNames>classroom_id</RefColNames>
+    </foreign-key>
+    <column id="81" parent="38" name="group_number">
+      <Position>1</Position>
+      <DataType>nvarchar(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="82" parent="38" name="lesson_name">
+      <Position>2</Position>
+      <DataType>nvarchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <foreign-key id="83" parent="38" name="FK_LESSON_STUDY_GROUP_STUDY_GROUP">
+      <ObjectId>1317579732</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.733</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.733</ModifiedTimestamp>
+      <ColNames>group_number</ColNames>
+      <RefTableName>STUDY_GROUP</RefTableName>
+      <RefColNames>group_number</RefColNames>
+    </foreign-key>
+    <foreign-key id="84" parent="38" name="FK_LESSON_STUDY_GROUP_LESSON">
+      <ObjectId>1333579789</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.740</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.740</ModifiedTimestamp>
+      <ColNames>lesson_name</ColNames>
+      <RefTableName>LESSON</RefTableName>
+      <RefColNames>lesson_name</RefColNames>
+    </foreign-key>
+    <column id="85" parent="39" name="lesson_type_name">
+      <Position>1</Position>
+      <DataType>nvarchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="86" parent="39" name="lesson_name">
+      <Position>2</Position>
+      <DataType>nvarchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <foreign-key id="87" parent="39" name="FK_LESSON_TYPE_OF_LESSON_TYPE_OF_LESSON">
+      <ObjectId>1365579903</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.750</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.750</ModifiedTimestamp>
+      <ColNames>lesson_type_name</ColNames>
+      <RefTableName>TYPE_OF_LESSON</RefTableName>
+      <RefColNames>lesson_type_name</RefColNames>
+    </foreign-key>
+    <foreign-key id="88" parent="39" name="FK_LESSON_TYPE_OF_LESSON">
+      <ObjectId>1349579846</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.747</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.747</ModifiedTimestamp>
+      <ColNames>lesson_name</ColNames>
+      <RefTableName>LESSON</RefTableName>
+      <RefColNames>lesson_name</RefColNames>
+    </foreign-key>
+    <column id="89" parent="40" name="day_name">
+      <Position>1</Position>
+      <DataType>nvarchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="90" parent="40" name="lesson_number">
+      <Position>2</Position>
+      <DataType>tinyint|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="91" parent="40" name="begin_time">
+      <Position>3</Position>
+      <DataType>time|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="92" parent="40" name="end_time">
+      <Position>4</Position>
+      <DataType>time|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="93" parent="40" name="group_number">
+      <Position>5</Position>
+      <DataType>nvarchar(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="94" parent="40" name="corpus_id">
+      <Position>6</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="95" parent="40" name="classroom_id">
+      <Position>7</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="96" parent="40" name="lesson_name">
+      <Position>8</Position>
+      <DataType>nvarchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="97" parent="40" name="lesson_type_name">
+      <Position>9</Position>
+      <DataType>nvarchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="98" parent="40" name="teacher_id">
+      <Position>10</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <foreign-key id="99" parent="40" name="FK_SCHEDULE_DAY_OF_THE_WEEK">
+      <ObjectId>1493580359</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.810</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.810</ModifiedTimestamp>
+      <ColNames>day_name</ColNames>
+      <RefTableName>DAY_OF_THE_WEEK</RefTableName>
+      <RefColNames>day_name</RefColNames>
+    </foreign-key>
+    <foreign-key id="100" parent="40" name="FK_SCHEDULE_TIMETABLE">
+      <ObjectId>1429580131</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.787</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.787</ModifiedTimestamp>
+      <ColNames>lesson_number</ColNames>
+      <RefTableName>TIMETABLE</RefTableName>
+      <RefColNames>lesson_number</RefColNames>
+    </foreign-key>
+    <foreign-key id="101" parent="40" name="FK_SCHEDULE_TIMETABLE_1">
+      <ObjectId>1445580188</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.790</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.790</ModifiedTimestamp>
+      <ColNames>begin_time</ColNames>
+      <RefTableName>TIMETABLE</RefTableName>
+      <RefColNames>begin_time</RefColNames>
+    </foreign-key>
+    <foreign-key id="102" parent="40" name="FK_SCHEDULE_TIMETABLE_2">
+      <ObjectId>1461580245</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.797</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.797</ModifiedTimestamp>
+      <ColNames>end_time</ColNames>
+      <RefTableName>TIMETABLE</RefTableName>
+      <RefColNames>end_time</RefColNames>
+    </foreign-key>
+    <foreign-key id="103" parent="40" name="FK_SCHEDULE_STUDY_GROUP">
+      <ObjectId>1477580302</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.803</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.803</ModifiedTimestamp>
+      <ColNames>group_number</ColNames>
+      <RefTableName>STUDY_GROUP</RefTableName>
+      <RefColNames>group_number</RefColNames>
+    </foreign-key>
+    <foreign-key id="104" parent="40" name="FK_SCHEDULE_CORPUS">
+      <ObjectId>1525580473</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.820</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.820</ModifiedTimestamp>
+      <ColNames>corpus_id</ColNames>
+      <RefTableName>CORPUS</RefTableName>
+      <RefColNames>corpus_id</RefColNames>
+    </foreign-key>
+    <foreign-key id="105" parent="40" name="FK_SCHEDULE_CLASSROOM">
+      <ObjectId>1413580074</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.780</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.780</ModifiedTimestamp>
+      <ColNames>classroom_id</ColNames>
+      <RefTableName>CLASSROOM</RefTableName>
+      <RefColNames>classroom_id</RefColNames>
+    </foreign-key>
+    <foreign-key id="106" parent="40" name="FK_SCHEDULE_LESSON">
+      <ObjectId>1509580416</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.813</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.813</ModifiedTimestamp>
+      <ColNames>lesson_name</ColNames>
+      <RefTableName>LESSON</RefTableName>
+      <RefColNames>lesson_name</RefColNames>
+    </foreign-key>
+    <foreign-key id="107" parent="40" name="FK_SCHEDULE_TYPE_OF_LESSON">
+      <ObjectId>1557580587</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.837</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.837</ModifiedTimestamp>
+      <ColNames>lesson_type_name</ColNames>
+      <RefTableName>TYPE_OF_LESSON</RefTableName>
+      <RefColNames>lesson_type_name</RefColNames>
+    </foreign-key>
+    <foreign-key id="108" parent="40" name="FK_SCHEDULE_TEACHER">
+      <ObjectId>1541580530</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.830</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.830</ModifiedTimestamp>
+      <ColNames>teacher_id</ColNames>
+      <RefTableName>TEACHER</RefTableName>
+      <RefColNames>teacher_id</RefColNames>
+    </foreign-key>
+    <column id="109" parent="41" name="group_number">
+      <Position>1</Position>
+      <DataType>nvarchar(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="110" parent="41" name="number_of_students">
+      <Position>2</Position>
+      <DataType>smallint|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="111" parent="41" name="PK_STUDY_GROUP">
+      <Position>1</Position>
+      <ColNames>group_number</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="112" parent="41" name="PK_STUDY_GROUP">
+      <ObjectId>1013578649</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.650</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.650</ModifiedTimestamp>
+      <ColNames>group_number</ColNames>
+      <UnderlyingIndexName>PK_STUDY_GROUP</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="113" parent="42" name="teacher_id">
+      <Position>1</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="114" parent="42" name="first_name">
+      <Position>2</Position>
+      <DataType>nvarchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="115" parent="42" name="last_name">
+      <Position>3</Position>
+      <DataType>nvarchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="116" parent="42" name="middle_name">
+      <Position>4</Position>
+      <DataType>nvarchar(20)|0</DataType>
+    </column>
+    <index id="117" parent="42" name="PK_TEACHER">
+      <Position>1</Position>
+      <ColNames>teacher_id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="118" parent="42" name="PK_TEACHER">
+      <ObjectId>1189579276</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.693</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.693</ModifiedTimestamp>
+      <ColNames>teacher_id</ColNames>
+      <UnderlyingIndexName>PK_TEACHER</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="119" parent="43" name="teacher_id">
+      <Position>1</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="120" parent="43" name="lesson_name">
+      <Position>2</Position>
+      <DataType>nvarchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <foreign-key id="121" parent="43" name="FK_TEACHER_LESSON_TEACHER">
+      <ObjectId>1397580017</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.777</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.777</ModifiedTimestamp>
+      <ColNames>teacher_id</ColNames>
+      <RefTableName>TEACHER</RefTableName>
+      <RefColNames>teacher_id</RefColNames>
+    </foreign-key>
+    <foreign-key id="122" parent="43" name="FK_TEACHER_LESSON_LESSON">
+      <ObjectId>1381579960</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.757</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.757</ModifiedTimestamp>
+      <ColNames>lesson_name</ColNames>
+      <RefTableName>LESSON</RefTableName>
+      <RefColNames>lesson_name</RefColNames>
+    </foreign-key>
+    <column id="123" parent="44" name="lesson_number">
+      <Position>1</Position>
+      <DataType>tinyint|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="124" parent="44" name="begin_time">
+      <Position>2</Position>
+      <DataType>time|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="125" parent="44" name="end_time">
+      <Position>3</Position>
+      <DataType>time|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="126" parent="44" name="PK_TIMETABLE">
+      <Position>1</Position>
+      <ColNames>lesson_number</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="127" parent="44" name="IX_TIMETABLE_1">
+      <Position>2</Position>
+      <ColNames>end_time</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="128" parent="44" name="IX_TIMETABLE">
+      <Position>3</Position>
+      <ColNames>begin_time</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="129" parent="44" name="PK_TIMETABLE">
+      <ObjectId>949578421</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.640</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.640</ModifiedTimestamp>
+      <ColNames>lesson_number</ColNames>
+      <UnderlyingIndexName>PK_TIMETABLE</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="130" parent="44" name="IX_TIMETABLE">
+      <ObjectId>981578535</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.640</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.640</ModifiedTimestamp>
+      <ColNames>begin_time</ColNames>
+      <UnderlyingIndexName>IX_TIMETABLE</UnderlyingIndexName>
+    </key>
+    <key id="131" parent="44" name="IX_TIMETABLE_1">
+      <ObjectId>965578478</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.640</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.640</ModifiedTimestamp>
+      <ColNames>end_time</ColNames>
+      <UnderlyingIndexName>IX_TIMETABLE_1</UnderlyingIndexName>
+    </key>
+    <column id="132" parent="45" name="lesson_type_name">
+      <Position>1</Position>
+      <DataType>nvarchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="133" parent="45" name="PK_TYPE_OF_LESSON">
+      <Position>1</Position>
+      <ColNames>lesson_type_name</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="134" parent="45" name="PK_TYPE_OF_LESSON">
+      <ObjectId>1253579504</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.713</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.713</ModifiedTimestamp>
+      <ColNames>lesson_type_name</ColNames>
+      <UnderlyingIndexName>PK_TYPE_OF_LESSON</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="135" parent="46" name="classroom_id">
+      <Position>1</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="136" parent="46" name="corpus_id">
+      <Position>2</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="137" parent="46" name="classroom_number">
+      <Position>3</Position>
+      <DataType>smallint|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="138" parent="46" name="classroom_capacity">
+      <Position>4</Position>
+      <DataType>smallint|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="139" parent="46" name="equipment">
+      <Position>5</Position>
+      <DataType>bit|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="140" parent="46" name="PK_CLASSROOM">
+      <Position>1</Position>
+      <ColNames>classroom_id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="141" parent="46" name="PK_CLASSROOM">
+      <ObjectId>917578307</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.630</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.630</ModifiedTimestamp>
+      <ColNames>classroom_id</ColNames>
+      <UnderlyingIndexName>PK_CLASSROOM</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="142" parent="46" name="FK_CLASSROOM_CORPUS">
+      <ObjectId>1269579561</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.720</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.720</ModifiedTimestamp>
+      <ColNames>corpus_id</ColNames>
+      <RefTableName>CORPUS</RefTableName>
+      <RefColNames>corpus_id</RefColNames>
+    </foreign-key>
+    <column id="143" parent="47" name="corpus_id">
+      <Position>1</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="144" parent="47" name="corpus_adress">
+      <Position>2</Position>
+      <DataType>ntext|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="145" parent="47" name="PK_CORPUS">
+      <Position>1</Position>
+      <ColNames>corpus_id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="146" parent="47" name="PK_CORPUS">
+      <ObjectId>1157579162</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.687</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.687</ModifiedTimestamp>
+      <ColNames>corpus_id</ColNames>
+      <UnderlyingIndexName>PK_CORPUS</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="147" parent="48" name="day_name">
+      <Position>1</Position>
+      <DataType>nvarchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="148" parent="48" name="PK_DAY_OF_THE_WEEK">
+      <Position>1</Position>
+      <ColNames>day_name</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="149" parent="48" name="PK_DAY_OF_THE_WEEK">
+      <ObjectId>1045578763</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.657</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.657</ModifiedTimestamp>
+      <ColNames>day_name</ColNames>
+      <UnderlyingIndexName>PK_DAY_OF_THE_WEEK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="150" parent="49" name="lesson_name">
+      <Position>1</Position>
+      <DataType>nvarchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="151" parent="49" name="PK_LESSON">
+      <Position>1</Position>
+      <ColNames>lesson_name</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="152" parent="49" name="PK_LESSON">
+      <ObjectId>1077578877</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.663</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.663</ModifiedTimestamp>
+      <ColNames>lesson_name</ColNames>
+      <UnderlyingIndexName>PK_LESSON</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="153" parent="50" name="lesson_name">
+      <Position>1</Position>
+      <DataType>nvarchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="154" parent="50" name="classroom_id">
+      <Position>2</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <foreign-key id="155" parent="50" name="FK_LESSON_CLASSROOM_LESSON">
+      <ObjectId>1301579675</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.730</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.730</ModifiedTimestamp>
+      <ColNames>lesson_name</ColNames>
+      <RefTableName>LESSON</RefTableName>
+      <RefColNames>lesson_name</RefColNames>
+    </foreign-key>
+    <foreign-key id="156" parent="50" name="FK_LESSON_CLASSROOM_CLASSROOM">
+      <ObjectId>1285579618</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.723</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.723</ModifiedTimestamp>
+      <ColNames>classroom_id</ColNames>
+      <RefTableName>CLASSROOM</RefTableName>
+      <RefColNames>classroom_id</RefColNames>
+    </foreign-key>
+    <column id="157" parent="51" name="group_number">
+      <Position>1</Position>
+      <DataType>nvarchar(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="158" parent="51" name="lesson_name">
+      <Position>2</Position>
+      <DataType>nvarchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <foreign-key id="159" parent="51" name="FK_LESSON_STUDY_GROUP_STUDY_GROUP">
+      <ObjectId>1317579732</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.733</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.733</ModifiedTimestamp>
+      <ColNames>group_number</ColNames>
+      <RefTableName>STUDY_GROUP</RefTableName>
+      <RefColNames>group_number</RefColNames>
+    </foreign-key>
+    <foreign-key id="160" parent="51" name="FK_LESSON_STUDY_GROUP_LESSON">
+      <ObjectId>1333579789</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.740</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.740</ModifiedTimestamp>
+      <ColNames>lesson_name</ColNames>
+      <RefTableName>LESSON</RefTableName>
+      <RefColNames>lesson_name</RefColNames>
+    </foreign-key>
+    <column id="161" parent="52" name="lesson_type_name">
+      <Position>1</Position>
+      <DataType>nvarchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="162" parent="52" name="lesson_name">
+      <Position>2</Position>
+      <DataType>nvarchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <foreign-key id="163" parent="52" name="FK_LESSON_TYPE_OF_LESSON_TYPE_OF_LESSON">
+      <ObjectId>1365579903</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.750</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.750</ModifiedTimestamp>
+      <ColNames>lesson_type_name</ColNames>
+      <RefTableName>TYPE_OF_LESSON</RefTableName>
+      <RefColNames>lesson_type_name</RefColNames>
+    </foreign-key>
+    <foreign-key id="164" parent="52" name="FK_LESSON_TYPE_OF_LESSON">
+      <ObjectId>1349579846</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.747</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.747</ModifiedTimestamp>
+      <ColNames>lesson_name</ColNames>
+      <RefTableName>LESSON</RefTableName>
+      <RefColNames>lesson_name</RefColNames>
+    </foreign-key>
+    <column id="165" parent="53" name="day_name">
+      <Position>1</Position>
+      <DataType>nvarchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="166" parent="53" name="lesson_number">
+      <Position>2</Position>
+      <DataType>tinyint|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="167" parent="53" name="begin_time">
+      <Position>3</Position>
+      <DataType>time|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="168" parent="53" name="end_time">
+      <Position>4</Position>
+      <DataType>time|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="169" parent="53" name="group_number">
+      <Position>5</Position>
+      <DataType>nvarchar(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="170" parent="53" name="corpus_id">
+      <Position>6</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="171" parent="53" name="classroom_id">
+      <Position>7</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="172" parent="53" name="lesson_name">
+      <Position>8</Position>
+      <DataType>nvarchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="173" parent="53" name="lesson_type_name">
+      <Position>9</Position>
+      <DataType>nvarchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="174" parent="53" name="teacher_id">
+      <Position>10</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <foreign-key id="175" parent="53" name="FK_SCHEDULE_DAY_OF_THE_WEEK">
+      <ObjectId>1493580359</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.810</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.810</ModifiedTimestamp>
+      <ColNames>day_name</ColNames>
+      <RefTableName>DAY_OF_THE_WEEK</RefTableName>
+      <RefColNames>day_name</RefColNames>
+    </foreign-key>
+    <foreign-key id="176" parent="53" name="FK_SCHEDULE_TIMETABLE">
+      <ObjectId>1429580131</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.787</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.787</ModifiedTimestamp>
+      <ColNames>lesson_number</ColNames>
+      <RefTableName>TIMETABLE</RefTableName>
+      <RefColNames>lesson_number</RefColNames>
+    </foreign-key>
+    <foreign-key id="177" parent="53" name="FK_SCHEDULE_TIMETABLE_1">
+      <ObjectId>1445580188</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.790</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.790</ModifiedTimestamp>
+      <ColNames>begin_time</ColNames>
+      <RefTableName>TIMETABLE</RefTableName>
+      <RefColNames>begin_time</RefColNames>
+    </foreign-key>
+    <foreign-key id="178" parent="53" name="FK_SCHEDULE_TIMETABLE_2">
+      <ObjectId>1461580245</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.797</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.797</ModifiedTimestamp>
+      <ColNames>end_time</ColNames>
+      <RefTableName>TIMETABLE</RefTableName>
+      <RefColNames>end_time</RefColNames>
+    </foreign-key>
+    <foreign-key id="179" parent="53" name="FK_SCHEDULE_STUDY_GROUP">
+      <ObjectId>1477580302</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.803</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.803</ModifiedTimestamp>
+      <ColNames>group_number</ColNames>
+      <RefTableName>STUDY_GROUP</RefTableName>
+      <RefColNames>group_number</RefColNames>
+    </foreign-key>
+    <foreign-key id="180" parent="53" name="FK_SCHEDULE_CORPUS">
+      <ObjectId>1525580473</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.820</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.820</ModifiedTimestamp>
+      <ColNames>corpus_id</ColNames>
+      <RefTableName>CORPUS</RefTableName>
+      <RefColNames>corpus_id</RefColNames>
+    </foreign-key>
+    <foreign-key id="181" parent="53" name="FK_SCHEDULE_CLASSROOM">
+      <ObjectId>1413580074</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.780</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.780</ModifiedTimestamp>
+      <ColNames>classroom_id</ColNames>
+      <RefTableName>CLASSROOM</RefTableName>
+      <RefColNames>classroom_id</RefColNames>
+    </foreign-key>
+    <foreign-key id="182" parent="53" name="FK_SCHEDULE_LESSON">
+      <ObjectId>1509580416</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.813</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.813</ModifiedTimestamp>
+      <ColNames>lesson_name</ColNames>
+      <RefTableName>LESSON</RefTableName>
+      <RefColNames>lesson_name</RefColNames>
+    </foreign-key>
+    <foreign-key id="183" parent="53" name="FK_SCHEDULE_TYPE_OF_LESSON">
+      <ObjectId>1557580587</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.837</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.837</ModifiedTimestamp>
+      <ColNames>lesson_type_name</ColNames>
+      <RefTableName>TYPE_OF_LESSON</RefTableName>
+      <RefColNames>lesson_type_name</RefColNames>
+    </foreign-key>
+    <foreign-key id="184" parent="53" name="FK_SCHEDULE_TEACHER">
+      <ObjectId>1541580530</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.830</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.830</ModifiedTimestamp>
+      <ColNames>teacher_id</ColNames>
+      <RefTableName>TEACHER</RefTableName>
+      <RefColNames>teacher_id</RefColNames>
+    </foreign-key>
+    <column id="185" parent="54" name="group_number">
+      <Position>1</Position>
+      <DataType>nvarchar(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="186" parent="54" name="number_of_students">
+      <Position>2</Position>
+      <DataType>smallint|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="187" parent="54" name="PK_STUDY_GROUP">
+      <Position>1</Position>
+      <ColNames>group_number</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="188" parent="54" name="PK_STUDY_GROUP">
+      <ObjectId>1013578649</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.650</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.650</ModifiedTimestamp>
+      <ColNames>group_number</ColNames>
+      <UnderlyingIndexName>PK_STUDY_GROUP</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="189" parent="55" name="teacher_id">
+      <Position>1</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="190" parent="55" name="first_name">
+      <Position>2</Position>
+      <DataType>nvarchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="191" parent="55" name="last_name">
+      <Position>3</Position>
+      <DataType>nvarchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="192" parent="55" name="middle_name">
+      <Position>4</Position>
+      <DataType>nvarchar(20)|0</DataType>
+    </column>
+    <index id="193" parent="55" name="PK_TEACHER">
+      <Position>1</Position>
+      <ColNames>teacher_id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="194" parent="55" name="PK_TEACHER">
+      <ObjectId>1189579276</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.693</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.693</ModifiedTimestamp>
+      <ColNames>teacher_id</ColNames>
+      <UnderlyingIndexName>PK_TEACHER</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="195" parent="56" name="teacher_id">
+      <Position>1</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="196" parent="56" name="lesson_name">
+      <Position>2</Position>
+      <DataType>nvarchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <foreign-key id="197" parent="56" name="FK_TEACHER_LESSON_TEACHER">
+      <ObjectId>1397580017</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.777</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.777</ModifiedTimestamp>
+      <ColNames>teacher_id</ColNames>
+      <RefTableName>TEACHER</RefTableName>
+      <RefColNames>teacher_id</RefColNames>
+    </foreign-key>
+    <foreign-key id="198" parent="56" name="FK_TEACHER_LESSON_LESSON">
+      <ObjectId>1381579960</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.757</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.757</ModifiedTimestamp>
+      <ColNames>lesson_name</ColNames>
+      <RefTableName>LESSON</RefTableName>
+      <RefColNames>lesson_name</RefColNames>
+    </foreign-key>
+    <column id="199" parent="57" name="lesson_number">
+      <Position>1</Position>
+      <DataType>tinyint|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="200" parent="57" name="begin_time">
+      <Position>2</Position>
+      <DataType>time|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="201" parent="57" name="end_time">
+      <Position>3</Position>
+      <DataType>time|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="202" parent="57" name="PK_TIMETABLE">
+      <Position>1</Position>
+      <ColNames>lesson_number</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="203" parent="57" name="IX_TIMETABLE_1">
+      <Position>2</Position>
+      <ColNames>end_time</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="204" parent="57" name="IX_TIMETABLE">
+      <Position>3</Position>
+      <ColNames>begin_time</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="205" parent="57" name="PK_TIMETABLE">
+      <ObjectId>949578421</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.640</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.640</ModifiedTimestamp>
+      <ColNames>lesson_number</ColNames>
+      <UnderlyingIndexName>PK_TIMETABLE</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="206" parent="57" name="IX_TIMETABLE">
+      <ObjectId>981578535</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.640</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.640</ModifiedTimestamp>
+      <ColNames>begin_time</ColNames>
+      <UnderlyingIndexName>IX_TIMETABLE</UnderlyingIndexName>
+    </key>
+    <key id="207" parent="57" name="IX_TIMETABLE_1">
+      <ObjectId>965578478</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.640</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.640</ModifiedTimestamp>
+      <ColNames>end_time</ColNames>
+      <UnderlyingIndexName>IX_TIMETABLE_1</UnderlyingIndexName>
+    </key>
+    <column id="208" parent="58" name="lesson_type_name">
+      <Position>1</Position>
+      <DataType>nvarchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="209" parent="58" name="PK_TYPE_OF_LESSON">
+      <Position>1</Position>
+      <ColNames>lesson_type_name</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="210" parent="58" name="PK_TYPE_OF_LESSON">
+      <ObjectId>1253579504</ObjectId>
+      <CreatedTimestamp>2017-04-08.00:50:09.713</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-08.00:50:09.713</ModifiedTimestamp>
+      <ColNames>lesson_type_name</ColNames>
+      <UnderlyingIndexName>PK_TYPE_OF_LESSON</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
